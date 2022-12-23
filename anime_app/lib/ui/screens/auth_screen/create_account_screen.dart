@@ -1,4 +1,4 @@
-import 'package:anime_app/ui/screens/auth_screen/general_widgets.dart';
+import 'package:anime_app/ui/screens/auth_screen/auth_screen_general_widgets.dart';
 import 'package:flutter/material.dart';
 
 import '../../colors.dart';

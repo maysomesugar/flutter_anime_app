@@ -1,3 +1,4 @@
+import 'package:anime_app/ui/screens/anime_page_screen/anime_page_screen.dart';
 import 'package:anime_app/ui/screens/auth_screen/create_account_screen.dart';
 import 'package:anime_app/ui/screens/auth_screen/sign_in_screen.dart';
 import 'package:anime_app/ui/screens/auth_screen/sing_up_screen.dart';
@@ -18,8 +19,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         fontFamily: GoogleFonts.poppins().fontFamily,
       ),
-      home: MainScreen(),
-      //fasfds
+      home: AnimePageScreen(),
     );
   }
 }

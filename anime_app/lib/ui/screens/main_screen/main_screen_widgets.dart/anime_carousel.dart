@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 
 import '../../../colors.dart';
 
-class AnimeCarousel extends StatelessWidget {
-  const AnimeCarousel({super.key});
+class RecomendationAnimeCarousel extends StatelessWidget {
+  const RecomendationAnimeCarousel({super.key});
 
   @override
   Widget build(BuildContext context) {

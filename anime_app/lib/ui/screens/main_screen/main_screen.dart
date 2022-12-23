@@ -1,5 +1,5 @@
 import 'package:anime_app/ui/screens/main_screen/main_screen_widgets.dart/best_anime.dart';
-import 'package:anime_app/ui/screens/main_screen/main_screen_widgets.dart/header.dart';
+import 'package:anime_app/ui/screens/main_screen/main_screen_widgets.dart/main_page_header.dart';
 import 'package:anime_app/ui/screens/main_screen/main_screen_widgets.dart/popular_anime.dart';
 import 'package:anime_app/ui/screens/main_screen/main_screen_widgets.dart/user_bottom_navigation_bar.dart';
 
@@ -22,20 +22,23 @@ class MainScreen extends StatelessWidget {
               padding: const EdgeInsets.all(16),
               // color: const Color(0xFF010614),
               child: ListView(
-                children: const [
-                  Header(),
-                  SizedBox(
+                children: [
+                  const Header(),
+                  const SizedBox(
                     height: 32,
                   ),
-                  AnimeCarousel(),
-                  SizedBox(
+                  const RecomendationAnimeCarousel(),
+                  const SizedBox(
                     height: 8,
                   ),
-                  BestAnime(),
-                  SizedBox(
+                  const BestAnime(),
+                  const SizedBox(
                     height: 8,
                   ),
                   PopularAnime(),
+                  const SizedBox(
+                    height: 66,
+                  )
                 ],
               ),
             ),

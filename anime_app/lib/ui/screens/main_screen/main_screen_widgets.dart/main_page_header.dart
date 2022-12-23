@@ -11,7 +11,8 @@ class Header extends StatelessWidget {
         GestureDetector(
           onTap: () {},
           child: Container(
-            padding: const EdgeInsets.all(5),
+            height: 35,
+            width: 35,
             decoration: const BoxDecoration(
               color: Color(0xFF010a25),
               borderRadius: BorderRadius.all(
@@ -27,7 +28,8 @@ class Header extends StatelessWidget {
         GestureDetector(
           onTap: () {},
           child: Container(
-            padding: const EdgeInsets.all(5),
+            height: 35,
+            width: 35,
             decoration: const BoxDecoration(
               color: Color(0xFF010a25),
               borderRadius: BorderRadius.all(

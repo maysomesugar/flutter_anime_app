@@ -1,7 +1,7 @@
 import 'package:anime_app/ui/colors.dart';
 import 'package:flutter/material.dart';
 
-import 'general_widgets.dart';
+import 'auth_screen_general_widgets.dart';
 
 class SignInScreen extends StatelessWidget {
   const SignInScreen({super.key});
